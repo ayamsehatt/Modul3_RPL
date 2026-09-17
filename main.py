@@ -1,3 +1,4 @@
+#Flesh F5212510021
 print ("=== Kalkulator Terminal Modul 3 ===")
 angka1 = float (input ("Masukkan angka pertama: "))
 angka2 = float (input ("Masukkan angka kedua: "))
