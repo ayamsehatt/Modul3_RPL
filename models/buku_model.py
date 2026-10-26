@@ -1,4 +1,5 @@
 from config.database import Database
+# Flesh_F5212510021
 
 class BukuModel:
     def __init__(self):

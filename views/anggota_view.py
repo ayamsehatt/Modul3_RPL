@@ -18,7 +18,7 @@ class AnggotaView(ctk.CTk):
         # FRAME KIRI: FORM DATA ANGGOTA
         # ==========================================
         self.frame_kiri = ctk.CTkFrame(self)
-        self.frame_kiri.grid(
+        self.frame_kiri.grid,,koooko/(
             row=0,
             column=0,
             padx=10,
