@@ -1,6 +1,6 @@
 name: Python CI Pipeline - Sistem Perpustakaan
 
-# Flesh 021
+# Flesh_021
 # Pipeline akan berjalan otomatis saat ada push atau pull request ke branch mainn
 on:
   push:
