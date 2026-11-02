@@ -15,6 +15,7 @@ class BukuController:
         self.view.btn_simpan.configure(command=self.simpan_data)
         self.view.btn_hapus.configure(command=self.hapus_data)
         self.view.btn_update.configure(command=self.update_data)
+        self.view.btn_logout.configure(command=self.logout)
 
         # Mengikat event pemilihan baris di tabel ke fungsi pilih_baris
         self.view.tabel.bind("<<TreeviewSelect>>", self.pilih_baris)  
@@ -64,35 +65,34 @@ class BukuController:
             self.view.entry_tahun.insert(0, values[3])
 
     def simpan_data(self):
+        # Proteksi ganda di level controller
         if self.user_role != "admin":
-            messagebox.showwarning("Peringatan","Hanya admin yang dapat menyimpan data buku!")
+            messagebox.showerror("Akses Ditolak", "Anda tidak memiliki izin untuk menambah data!")
             return
-        #flesh 021
-        # Mengambil teks dari kotak input di View
+
         judul = self.view.entry_judul.get()
         penulis = self.view.entry_penulis.get()
         tahun = self.view.entry_tahun.get()
 
-        # Validasi Form Kosong
         if not judul or not penulis or not tahun:
-            messagebox.showwarning("Peringatan","Semua kolom form harus diisi!")
+            messagebox.showwarning("Peringatan", "Semua kolom form harus diisi!")
             return
 
-        berhasil = self.model.create_buku(judul, penulis, tahun)
-
-
-        # Mengirim data ke Model untuk disimpan
-        berhasil = self.model.create_buku(judul, penulis, tahun)
-        if berhasil:
-            messagebox.showinfo("Sukses","Data buku berhasil disimpan!")
+        if self.model.create_buku(judul, penulis, tahun):
+            messagebox.showinfo("Sukses", "Data buku berhasil disimpan!")
             self.bersihkan_form()
             self.muat_data_tabel()
         else:
-            messagebox.showerror("Error","Terjadi kesalahan saat menyimpan data.")
+            messagebox.showerror("Error", "Gagal menyimpan data.")
 
     def update_data(self):
+        # Proteksi ganda di level controller
+        if self.user_role != "admin":
+            messagebox.showerror("Akses Ditolak", "Anda tidak memiliki izin untuk memperbarui data!")
+            return
+
         if self.id_terpilih is None:
-            messagebox.showwarning("Peringatan","Pilih data buku yang ingin diperbarui dari tabel!")
+            messagebox.showwarning("Peringatan", "Pilih data di tabel yang ingin diperbarui!")
             return
 
         judul = self.view.entry_judul.get()
@@ -100,31 +100,46 @@ class BukuController:
         tahun = self.view.entry_tahun.get()
 
         if not judul or not penulis or not tahun:
-            messagebox.showwarning("Peringatan","Semua kolom form harus diisi!")
+            messagebox.showwarning("Peringatan", "Semua kolom form harus diisi!")
             return
 
-        berhasil = self.model.update_buku(self.id_terpilih, judul, penulis, tahun)
-        if berhasil:
-            messagebox.showinfo("Sukses","Data buku berhasil diperbarui!")
+        if self.model.update_buku(self.id_terpilih, judul, penulis, tahun):
+            messagebox.showinfo("Sukses", "Data buku berhasil diperbarui!")
             self.bersihkan_form()
             self.muat_data_tabel()
         else:
-            messagebox.showerror("Error","Terjadi kesalahan saat memperbarui data.")
+            messagebox.showerror("Error", "Gagal memperbarui data.")
 
     def hapus_data(self):
-        if self.id_terpilih is None:
-            messagebox.showwarning("Peringatan","Pilih data buku yang ingin dihapus dari tabel!")
+        # Proteksi ganda di level controller
+        if self.user_role != "admin":
+            messagebox.showerror("Akses Ditolak", "Anda tidak memiliki izin untuk menghapus data!")
             return
 
-        konfirmasi = messagebox.askyesno("Konfirmasi","Apakah Anda yakin ingin menghapus data buku ini?")
-        if konfirmasi:
-            berhasil = self.model.delete_buku(self.id_terpilih)
-            if berhasil:
-                messagebox.showinfo("Sukses","Data buku berhasil dihapus!")
-                self.bersihkan_form()
-                self.muat_data_tabel()
-            else:
-                messagebox.showerror("Error","Terjadi kesalahan saat menghapus data.")
+        if self.id_terpilih is None:
+            messagebox.showwarning("Peringatan", "Pilih data di tabel yang ingin dihapus!")
+            return
+
+        if not messagebox.askyesno("Konfirmasi", "Yakin ingin menghapus data ini?"):
+            return
+
+        if self.model.delete_buku(self.id_terpilih):
+            messagebox.showinfo("Sukses", "Data buku berhasil dihapus!")
+            self.bersihkan_form()
+            self.muat_data_tabel()
+        else:
+            messagebox.showerror("Error", "Gagal menghapus data.")
+
+    def logout(self):
+        if not messagebox.askyesno("Konfirmasi Logout", "Yakin ingin keluar?"):
+            return
+
+        # Tutup jendela perpustakaan
+        self.view.destroy()
+
+        # Import di dalam method untuk menghindari circular import
+        from controller.auth_controller import AuthController
+        AuthController().run()
     
     # Fungsi untuk menjalankan aplikasi
     def run(self):

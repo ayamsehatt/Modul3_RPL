@@ -1,0 +1,676 @@
+('D:\\KULIAH\\SEMESTER '
+ '3\\RPL\\PRAKTIKUM\\Modul\\build\\AplikasiPerpustakaan\\AplikasiPerpustakaan.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True,
+  'SYMLINK': False},
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\build\\AplikasiPerpustakaan\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\build\\AplikasiPerpustakaan\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\build\\AplikasiPerpustakaan\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\build\\AplikasiPerpustakaan\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\build\\AplikasiPerpustakaan\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\build\\AplikasiPerpustakaan\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth__tkinter',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py',
+   'PYSOURCE'),
+  ('main',
+   'D:\\KULIAH\\SEMESTER 3\\RPL\\PRAKTIKUM\\Modul\\main.py',
+   'PYSOURCE'),
+  ('python314.dll',
+   'C:\\Users\\Pongo\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll',
+   'BINARY'),
+  ('select.pyd',
+   'C:\\Users\\Pongo\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_decimal.pyd',
+   'C:\\Users\\Pongo\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Users\\Pongo\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Users\\Pongo\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd',
+   'C:\\Users\\Pongo\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Users\\Pongo\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('_zstd.pyd',
+   'C:\\Users\\Pongo\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_zstd.pyd',
+   'EXTENSION'),
+  ('_lzma.pyd',
+   'C:\\Users\\Pongo\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Users\\Pongo\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('_multiprocessing.pyd',
+   'C:\\Users\\Pongo\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('pyexpat.pyd',
+   'C:\\Users\\Pongo\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'C:\\Users\\Pongo\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_queue.pyd',
+   'C:\\Users\\Pongo\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('_wmi.pyd',
+   'C:\\Users\\Pongo\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_wmi.pyd',
+   'EXTENSION'),
+  ('_uuid.pyd',
+   'C:\\Users\\Pongo\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_uuid.pyd',
+   'EXTENSION'),
+  ('_mysql_connector.cp314-win_amd64.pyd',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\_mysql_connector.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('_overlapped.pyd',
+   'C:\\Users\\Pongo\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('_asyncio.pyd',
+   'C:\\Users\\Pongo\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
+  ('_tkinter.pyd',
+   'C:\\Users\\Pongo\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_tkinter.pyd',
+   'EXTENSION'),
+  ('api-ms-win-crt-heap-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-conio-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-conio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-math-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-math-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-stdio-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-stdio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-process-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-process-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-string-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-environment-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-environment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-filesystem-l1-1-0.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\Pongo\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('api-ms-win-crt-time-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-time-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-locale-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-convert-l1-1-0.dll',
+   'BINARY'),
+  ('libcrypto-3.dll',
+   'C:\\Users\\Pongo\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\libcrypto-3.dll',
+   'BINARY'),
+  ('libssl-3.dll',
+   'C:\\Users\\Pongo\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\libssl-3.dll',
+   'BINARY'),
+  ('libffi-8.dll',
+   'C:\\Users\\Pongo\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\libffi-8.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Users\\Pongo\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('libmysql.dll',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\libmysql.dll',
+   'BINARY'),
+  ('libtommath.dll',
+   'C:\\Users\\Pongo\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\libtommath.dll',
+   'BINARY'),
+  ('tcl9tk90.dll',
+   'C:\\Users\\Pongo\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\tcl9tk90.dll',
+   'BINARY'),
+  ('tcl90.dll',
+   'C:\\Users\\Pongo\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\tcl90.dll',
+   'BINARY'),
+  ('ucrtbase.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\ucrtbase.dll',
+   'BINARY'),
+  ('api-ms-win-crt-utility-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-utility-l1-1-0.dll',
+   'BINARY'),
+  ('libcrypto-3-x64.dll',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\libcrypto-3-x64.dll',
+   'BINARY'),
+  ('libssl-3-x64.dll',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\libssl-3-x64.dll',
+   'BINARY'),
+  ('MSVCP140.dll', 'C:\\WINDOWS\\system32\\MSVCP140.dll', 'BINARY'),
+  ('api-ms-win-crt-private-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-private-l1-1-0.dll',
+   'BINARY'),
+  ('zlib1.dll',
+   'C:\\Users\\Pongo\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\zlib1.dll',
+   'BINARY'),
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-errorhandling-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-string-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-file-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-console-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-console-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l2-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-file-l2-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-timezone-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-localization-l1-2-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-localization-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-synch-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-debug-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-debug-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-processthreads-l1-1-1.dll',
+   'BINARY'),
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-datetime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-2-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-file-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-handle-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-handle-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('mysql\\connector\\__init__.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\__init__.py',
+   'DATA'),
+  ('mysql\\connector\\_decorating.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\_decorating.py',
+   'DATA'),
+  ('mysql\\connector\\_scripting.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\_scripting.py',
+   'DATA'),
+  ('mysql\\connector\\abstracts.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\abstracts.py',
+   'DATA'),
+  ('mysql\\connector\\aio\\__init__.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\aio\\__init__.py',
+   'DATA'),
+  ('mysql\\connector\\aio\\_decorating.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\aio\\_decorating.py',
+   'DATA'),
+  ('mysql\\connector\\aio\\abstracts.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\aio\\abstracts.py',
+   'DATA'),
+  ('mysql\\connector\\aio\\authentication.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\aio\\authentication.py',
+   'DATA'),
+  ('mysql\\connector\\aio\\charsets.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\aio\\charsets.py',
+   'DATA'),
+  ('mysql\\connector\\aio\\connection.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\aio\\connection.py',
+   'DATA'),
+  ('mysql\\connector\\aio\\cursor.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\aio\\cursor.py',
+   'DATA'),
+  ('mysql\\connector\\aio\\logger.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\aio\\logger.py',
+   'DATA'),
+  ('mysql\\connector\\aio\\network.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\aio\\network.py',
+   'DATA'),
+  ('mysql\\connector\\aio\\plugins\\__init__.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\aio\\plugins\\__init__.py',
+   'DATA'),
+  ('mysql\\connector\\aio\\plugins\\authentication_kerberos_client.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\aio\\plugins\\authentication_kerberos_client.py',
+   'DATA'),
+  ('mysql\\connector\\aio\\plugins\\authentication_ldap_sasl_client.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\aio\\plugins\\authentication_ldap_sasl_client.py',
+   'DATA'),
+  ('mysql\\connector\\aio\\plugins\\authentication_oci_client.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\aio\\plugins\\authentication_oci_client.py',
+   'DATA'),
+  ('mysql\\connector\\aio\\plugins\\authentication_openid_connect_client.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\aio\\plugins\\authentication_openid_connect_client.py',
+   'DATA'),
+  ('mysql\\connector\\aio\\plugins\\authentication_webauthn_client.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\aio\\plugins\\authentication_webauthn_client.py',
+   'DATA'),
+  ('mysql\\connector\\aio\\plugins\\caching_sha2_password.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\aio\\plugins\\caching_sha2_password.py',
+   'DATA'),
+  ('mysql\\connector\\aio\\plugins\\mysql_clear_password.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\aio\\plugins\\mysql_clear_password.py',
+   'DATA'),
+  ('mysql\\connector\\aio\\plugins\\mysql_native_password.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\aio\\plugins\\mysql_native_password.py',
+   'DATA'),
+  ('mysql\\connector\\aio\\plugins\\sha256_password.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\aio\\plugins\\sha256_password.py',
+   'DATA'),
+  ('mysql\\connector\\aio\\pooling.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\aio\\pooling.py',
+   'DATA'),
+  ('mysql\\connector\\aio\\protocol.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\aio\\protocol.py',
+   'DATA'),
+  ('mysql\\connector\\aio\\py.typed',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\aio\\py.typed',
+   'DATA'),
+  ('mysql\\connector\\aio\\utils.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\aio\\utils.py',
+   'DATA'),
+  ('mysql\\connector\\authentication.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\authentication.py',
+   'DATA'),
+  ('mysql\\connector\\charsets.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\charsets.py',
+   'DATA'),
+  ('mysql\\connector\\connection.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\connection.py',
+   'DATA'),
+  ('mysql\\connector\\connection_cext.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\connection_cext.py',
+   'DATA'),
+  ('mysql\\connector\\constants.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\constants.py',
+   'DATA'),
+  ('mysql\\connector\\conversion.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\conversion.py',
+   'DATA'),
+  ('mysql\\connector\\cursor.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\cursor.py',
+   'DATA'),
+  ('mysql\\connector\\cursor_cext.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\cursor_cext.py',
+   'DATA'),
+  ('mysql\\connector\\custom_types.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\custom_types.py',
+   'DATA'),
+  ('mysql\\connector\\dbapi.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\dbapi.py',
+   'DATA'),
+  ('mysql\\connector\\django\\__init__.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\django\\__init__.py',
+   'DATA'),
+  ('mysql\\connector\\django\\base.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\django\\base.py',
+   'DATA'),
+  ('mysql\\connector\\django\\client.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\django\\client.py',
+   'DATA'),
+  ('mysql\\connector\\django\\compiler.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\django\\compiler.py',
+   'DATA'),
+  ('mysql\\connector\\django\\creation.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\django\\creation.py',
+   'DATA'),
+  ('mysql\\connector\\django\\features.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\django\\features.py',
+   'DATA'),
+  ('mysql\\connector\\django\\introspection.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\django\\introspection.py',
+   'DATA'),
+  ('mysql\\connector\\django\\operations.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\django\\operations.py',
+   'DATA'),
+  ('mysql\\connector\\django\\schema.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\django\\schema.py',
+   'DATA'),
+  ('mysql\\connector\\django\\validation.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\django\\validation.py',
+   'DATA'),
+  ('mysql\\connector\\errorcode.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\errorcode.py',
+   'DATA'),
+  ('mysql\\connector\\errors.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\errors.py',
+   'DATA'),
+  ('mysql\\connector\\locales\\__init__.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\locales\\__init__.py',
+   'DATA'),
+  ('mysql\\connector\\locales\\eng\\__init__.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\locales\\eng\\__init__.py',
+   'DATA'),
+  ('mysql\\connector\\locales\\eng\\client_error.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\locales\\eng\\client_error.py',
+   'DATA'),
+  ('mysql\\connector\\logger.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\logger.py',
+   'DATA'),
+  ('mysql\\connector\\network.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\network.py',
+   'DATA'),
+  ('mysql\\connector\\opentelemetry\\__init__.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\opentelemetry\\__init__.py',
+   'DATA'),
+  ('mysql\\connector\\opentelemetry\\constants.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\opentelemetry\\constants.py',
+   'DATA'),
+  ('mysql\\connector\\opentelemetry\\context_propagation.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\opentelemetry\\context_propagation.py',
+   'DATA'),
+  ('mysql\\connector\\opentelemetry\\instrumentation.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\opentelemetry\\instrumentation.py',
+   'DATA'),
+  ('mysql\\connector\\optionfiles.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\optionfiles.py',
+   'DATA'),
+  ('mysql\\connector\\plugins\\__init__.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\plugins\\__init__.py',
+   'DATA'),
+  ('mysql\\connector\\plugins\\authentication_kerberos_client.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\plugins\\authentication_kerberos_client.py',
+   'DATA'),
+  ('mysql\\connector\\plugins\\authentication_ldap_sasl_client.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\plugins\\authentication_ldap_sasl_client.py',
+   'DATA'),
+  ('mysql\\connector\\plugins\\authentication_oci_client.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\plugins\\authentication_oci_client.py',
+   'DATA'),
+  ('mysql\\connector\\plugins\\authentication_openid_connect_client.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\plugins\\authentication_openid_connect_client.py',
+   'DATA'),
+  ('mysql\\connector\\plugins\\authentication_webauthn_client.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\plugins\\authentication_webauthn_client.py',
+   'DATA'),
+  ('mysql\\connector\\plugins\\caching_sha2_password.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\plugins\\caching_sha2_password.py',
+   'DATA'),
+  ('mysql\\connector\\plugins\\mysql_clear_password.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\plugins\\mysql_clear_password.py',
+   'DATA'),
+  ('mysql\\connector\\plugins\\mysql_native_password.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\plugins\\mysql_native_password.py',
+   'DATA'),
+  ('mysql\\connector\\plugins\\sha256_password.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\plugins\\sha256_password.py',
+   'DATA'),
+  ('mysql\\connector\\pooling.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\pooling.py',
+   'DATA'),
+  ('mysql\\connector\\protocol.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\protocol.py',
+   'DATA'),
+  ('mysql\\connector\\py.typed',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\py.typed',
+   'DATA'),
+  ('mysql\\connector\\tls_ciphers.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\tls_ciphers.py',
+   'DATA'),
+  ('mysql\\connector\\types.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\types.py',
+   'DATA'),
+  ('mysql\\connector\\utils.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\utils.py',
+   'DATA'),
+  ('mysql\\connector\\version.py',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\mysql\\connector\\version.py',
+   'DATA'),
+  ('customtkinter\\assets\\icons\\CustomTkinter_icon_Windows.ico',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\customtkinter\\assets\\icons\\CustomTkinter_icon_Windows.ico',
+   'DATA'),
+  ('customtkinter\\assets\\fonts\\Roboto\\Roboto-Medium.ttf',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\customtkinter\\assets\\fonts\\Roboto\\Roboto-Medium.ttf',
+   'DATA'),
+  ('customtkinter\\assets\\icons\\.DS_Store',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\customtkinter\\assets\\icons\\.DS_Store',
+   'DATA'),
+  ('customtkinter\\assets\\themes\\green.json',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\customtkinter\\assets\\themes\\green.json',
+   'DATA'),
+  ('customtkinter\\assets\\fonts\\Roboto\\Roboto-Regular.ttf',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\customtkinter\\assets\\fonts\\Roboto\\Roboto-Regular.ttf',
+   'DATA'),
+  ('customtkinter\\assets\\fonts\\CustomTkinter_shapes_font.otf',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\customtkinter\\assets\\fonts\\CustomTkinter_shapes_font.otf',
+   'DATA'),
+  ('customtkinter\\assets\\.DS_Store',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\customtkinter\\assets\\.DS_Store',
+   'DATA'),
+  ('customtkinter\\assets\\themes\\gold.json',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\customtkinter\\assets\\themes\\gold.json',
+   'DATA'),
+  ('customtkinter\\assets\\themes\\blue.json',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\customtkinter\\assets\\themes\\blue.json',
+   'DATA'),
+  ('customtkinter\\assets\\themes\\dark-blue.json',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\env\\Lib\\site-packages\\customtkinter\\assets\\themes\\dark-blue.json',
+   'DATA'),
+  ('base_library.zip',
+   'D:\\KULIAH\\SEMESTER '
+   '3\\RPL\\PRAKTIKUM\\Modul\\build\\AplikasiPerpustakaan\\base_library.zip',
+   'DATA')],
+ 'python314.dll',
+ False,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)

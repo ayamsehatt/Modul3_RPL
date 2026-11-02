@@ -75,6 +75,14 @@ class BukuView(ctk.CTk):
 
         self.btn_hapus.pack(pady=10, padx=15, fill="x")
 
+        # Tombol Logout
+        self.btn_logout = ctk.CTkButton(
+            self.frame_kiri,
+            text="Logout",
+            fg_color="gray"
+        )
+        self.btn_logout.pack(pady=(20, 10), padx=15, fill="x")
+
         # ==========================================
         # FRAME KANAN: TABEL DAFTAR BUKU
         # ==========================================
